@@ -21,7 +21,7 @@ jobs:
           make dep-install
       - name: Install pre-commit hooks
         run: |
-          make pre-commit install
+          make pre-commit-install
       - name: Run pre-commit
         run: |
           make pre-commit-all
